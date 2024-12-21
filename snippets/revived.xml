@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="crdroidandroid/android" />
+  <project name="crdroid-experimental/android" path="android" remote="crdroid" />
+
+  <remove-project name="crdroidandroid/android_build" />
+  <project name="crdroid-experimental/android_build" path="build/make" remote="crdroid" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="crdroidandroid/android_vendor_crdroid" />
+  <project name="crdroid-experimental/android_vendor_crdroid" path="vendor/lineage" remote="crdroid" />
+</manifest>
