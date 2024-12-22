@@ -13,6 +13,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="crdroidandroid/android_device_crdroid_sepolicy" />
+  <project name="crdroid-experimental/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="crdroid" />
+
   <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
   <project name="crdroid-experimental/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crdroid" />
   <project name="LeafOS-Project/android_packages_apps_MuPDF" path="packages/apps/MuPDF" revision="leaf-3.2" />
