@@ -13,6 +13,11 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
+  <project name="crdroid-experimental/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crdroid" />
+  <remove-project name="crdroidandroid/android_packages_apps_Settings" />
+  <project name="crdroid-experimental/android_packages_apps_Settings" path="packages/apps/Settings" remote="crdroid" />
+
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
   <project name="crdroid-experimental/android_vendor_crdroid" path="vendor/lineage" remote="crdroid" />
 </manifest>
