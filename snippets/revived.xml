@@ -15,6 +15,7 @@
 
   <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
   <project name="crdroid-experimental/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="crdroid" />
+  <project name="LeafOS-Project/android_packages_apps_MuPDF" path="packages/apps/MuPDF" revision="leaf-3.2" />
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
   <project name="crdroid-experimental/android_packages_apps_Settings" path="packages/apps/Settings" remote="crdroid" />
 
