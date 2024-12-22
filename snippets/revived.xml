@@ -20,4 +20,5 @@
 
   <remove-project name="crdroidandroid/android_vendor_crdroid" />
   <project name="crdroid-experimental/android_vendor_crdroid" path="vendor/lineage" remote="crdroid" />
+  <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" revision="lineage-18.1" />
 </manifest>
